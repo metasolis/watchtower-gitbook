@@ -28,7 +28,7 @@ Yield for 1AUD comes from actively managed **strategy vaults**, each focused on 
 
 These vaults are modular and automatically rebalanced to maintain an optimal risk–reward balance.
 
-### **How Yield Is Generated**
+### **How Is Yield Generated?**
 
 An accounting model continuously tracks the **Net Asset Value (NAV)** of the 1AUD portfolio. This system ensures that:
 
