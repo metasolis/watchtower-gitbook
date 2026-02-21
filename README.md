@@ -31,8 +31,8 @@ Watchtower's vision is to build the financial and economic foundations for a Sta
 
 ## 1AUD
 
-{% content-ref url="lending/overview.md" %}
-[overview.md](lending/overview.md)
+{% content-ref url="1aud-overview/overview.md" %}
+[overview.md](1aud-overview/overview.md)
 {% endcontent-ref %}
 
 ***

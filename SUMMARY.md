@@ -13,20 +13,20 @@
 * [🔮 The Vision](overview/the-vision.md)
 * [🏛️ Governance](overview/governance.md)
 
-## Lending
+## 1AUD Overview
 
-* [🌇 Overview](lending/overview.md)
-* [🪙 Tokenisation](lending/tokenisation.md)
-* [🤲 Borrow](lending/borrow.md)
-* [🤝 Lending](lending/lending.md)
-* [🧑‍⚖️ Underwrite](lending/underwrite.md)
-* [☣️ Risk Management](lending/risk-management.md)
-* [☑️ Audits & Addresses](lending/audits-and-addresses.md)
+* [🌇 Overview](1aud-overview/overview.md)
+* [🤝 Lending](1aud-overview/lending.md)
+* [🪙 Tokenisation](1aud-overview/tokenisation.md)
+* [🤲 Borrow](1aud-overview/borrow.md)
+* [🧑‍⚖️ Underwrite](1aud-overview/underwrite.md)
+* [☣️ Risk Management](1aud-overview/risk-management.md)
+* [☑️ Audits & Addresses](1aud-overview/audits-and-addresses.md)
 
 ## Watchtower Stack
 
 * [🌄 Overview](watchtower-stack/overview.md)
-* [💵 Stablecoin (1AUD)](watchtower-stack/stablecoin-1aud.md)
+* [💵 1AUD](watchtower-stack/1aud.md)
 * [📱 Apps](watchtower-stack/apps.md)
 * [🔮 Oracle](watchtower-stack/oracle.md)
 * [🛜 DePIN](watchtower-stack/depin.md)
