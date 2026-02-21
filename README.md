@@ -29,7 +29,7 @@ Watchtower's vision is to build the financial and economic foundations for a Sta
 
 ***
 
-## The Lending Market
+## 1AUD
 
 {% content-ref url="lending/overview.md" %}
 [overview.md](lending/overview.md)
