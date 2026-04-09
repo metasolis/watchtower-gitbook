@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # 🪙 Tokenisation
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
@@ -13,10 +17,3 @@ Once the SPV is created, the borrower creates a bailment contract for possession
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 <br>
-
-
-
-
-
-
-
