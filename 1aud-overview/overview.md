@@ -1,10 +1,10 @@
 # 🌇 Overview
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 We use a stablecoin-enabled credit approach where crypto-natives can lend their US dollar denominated stablecoins to earn a real yield from businesses that can take out loans by tokenising their hardware collateral and underwriters can participate in algorithmic auctions.
 
-This particular product falls under Payload-based financing and Reputation-based financing mentioned in [the-vision.md](../overview/the-vision.md "mention") and is built on top of the **Watchtower Stack**. For more info, you can go to the Watchtower Stack [overview.md](../watchtower-stack/overview.md "mention").
+This particular product falls under Payload-based financing and Reputation-based financing mentioned in _The Vision section_ and is built on top of the **Watchtower Stack**. For more info, you can go to the Watchtower Stack [overview.md](../watchtower-stack/overview.md "mention").
 
 {% content-ref url="borrow.md" %}
 [borrow.md](borrow.md)
