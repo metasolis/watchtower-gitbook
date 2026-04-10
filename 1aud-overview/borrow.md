@@ -1,4 +1,4 @@
-# 🤲 Borrow
+# 🤲 Tokenise & Borrow
 
 The space economy is usually described in three broad segments: the ground segment, the launch segment, and the in‑orbit or space segment:
 
@@ -58,7 +58,7 @@ The tokenising agent can arrange umbrella coverage at the teleport‑facility le
   * Owns one or more GSAs through a bankruptcy‑remote special purpose vehicle (SPV).
   * Generates revenue from multiple - downlink services, leasing capacity, or bundled ground‑segment contracts - at a time.
 * Tokenising Agent
-  * Specialised legal entity that converts a specific GSA into a cNFT and manages associated off‑chain documentation.
+  * Specialised legal entity (Watchtower) that converts a specific GSA into a cNFT and manages associated off‑chain documentation.
   * Maintains relationships with teleport operators, insurers, and auditors to keep the registry verifiable and enforceable.
 * Teleport Operator
   * Owns or leases the physical teleport facility where GSAs are installed, providing power, connectivity, security, and environmental control.
