@@ -17,7 +17,7 @@
 
 * [🌇 Overview](1aud-overview/overview.md)
 * [🤝 Lending](1aud-overview/lending.md)
-* [🤲 Borrow](1aud-overview/borrow.md)
+* [🤲 Tokenise & Borrow](1aud-overview/borrow.md)
 * [🪙 Tokenisation](1aud-overview/tokenisation.md)
 * [🤲 Copy of Borrow](1aud-overview/borrow-1.md)
 * [🧑‍⚖️ Underwrite](1aud-overview/underwrite.md)
