@@ -1,8 +1,10 @@
-# 🌇 Overview
+# 🌇 How IAUD works
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-We use a stablecoin-enabled credit approach where crypto-natives can lend their US dollar denominated stablecoins to earn a real yield from businesses that can take out loans by tokenising their hardware collateral and underwriters can participate in algorithmic auctions.
+IAUD ([Roman-numeral for the number One](https://en.wikipedia.org/wiki/Roman_numerals)) represents 1AU Dollar where 1AU stands for 1 [Astronomical Unit](https://en.wikipedia.org/wiki/Astronomical_unit) which is a unit of distance used in astrophysics and represents the distance of the Earth from its Star/Sun.&#x20;
+
+We use a stablecoin-enabled credit approach where crypto-natives can lend their dollar denominated stablecoins to earn a real yield from businesses that can take out loans by tokenising their hardware collateral and underwriters can participate in algorithmic auctions.
 
 This particular product falls under Payload-based financing and Reputation-based financing mentioned in _The Vision section_ and is built on top of the **Watchtower Stack**. For more info, you can go to the Watchtower Stack [overview.md](../watchtower-stack/overview.md "mention").
 
