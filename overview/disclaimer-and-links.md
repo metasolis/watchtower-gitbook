@@ -1,4 +1,4 @@
-# 🕴️ Disclaimer & Links
+# 📜 Disclaimer & Links
 
 ## Disclaimer
 
