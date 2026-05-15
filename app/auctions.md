@@ -10,6 +10,8 @@ Due to the nature of hardware, privacy is an important feature of auctions. Ever
 
 ### Liquidation Auctions
 
-<figure><img src="../.gitbook/assets/liq_auction_shot.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/liq_auction_shot (1).png" alt=""><figcaption></figcaption></figure>
+
+
 
 <figure><img src="../.gitbook/assets/liq_auction_popup_shot.png" alt=""><figcaption></figcaption></figure>
