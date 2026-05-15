@@ -1,10 +1,12 @@
-# ‼️ Problem
+# ‼️ The Problem We Solve
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-One of the main pain points of private credit is time. Space companies run on hardware and capital—yet typical loans can take 1 to 4 months for approval, with due diligence and legal reviews dragging things to a year. Startups and SMBs, who often need to move in weeks, simply can’t wait that long. Asset-backed loans require complex collateral appraisals and security registrations, making private credit even less accessible. This mismatch means breakthrough ideas are stalled, not by technology, but by slow, rigid financing processes that fail to match the pace of innovation.
+Space companies are capex‑heavy, yet taking on debt remains cumbersome; unless you’re a prime contractor or VC‑backed, equity dilution is often the only option, and even then, credit requirements and approvals are time‑consuming.
 
-Banks and export‑credit lenders are built for large, late‑stage projects; mid‑ticket capex (≈$0.5–10M) for AI/space hardware is too small, too early, and too unfamiliar in risk profile. Venture debt and private credit typically require VC backing or big government contracts, come with covenants/ warrants, and still move slowly relative to hardware build cycles. Equity ends up funding repeat capex, inventory, and ground assets that should sit on a credit stack, forcing founders to over‑dilute just to buy GPUs and other ground-segment hardware.
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+Typical loans can take 1 to 12 months to approve, depending on whether they come from banks, export credit agencies, asset‑based lessors, venture debt providers, or traditional private credit. Startups and small‑to‑mid‑sized businesses often need to move in weeks and simply cannot afford to wait that long. Loans require complex collateral appraisals and security registrations, making private credit even less accessible. This mismatch means breakthrough ideas get stalled—not by technology, but by slow, rigid financing that fails to keep pace with innovation.
 
 Other Common hurdles to financing of Space Companies:
 
