@@ -1,6 +1,6 @@
 # 🌇 How IAUD works
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 IAUD ([Roman-numeral for the number One](https://en.wikipedia.org/wiki/Roman_numerals)) represents 1AU Dollar where 1AU stands for 1 [Astronomical Unit](https://en.wikipedia.org/wiki/Astronomical_unit) which is a unit of distance used in astrophysics and represents the distance of the Earth from its Star/Sun.&#x20;
 
@@ -12,13 +12,25 @@ This particular product falls under Payload-based financing and Reputation-based
 [borrow.md](borrow.md)
 {% endcontent-ref %}
 
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
 {% content-ref url="lending.md" %}
 [lending.md](lending.md)
 {% endcontent-ref %}
 
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
 {% content-ref url="underwrite.md" %}
 [underwrite.md](underwrite.md)
 {% endcontent-ref %}
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+{% content-ref url="../watchtower-stack/depin.md" %}
+[depin.md](../watchtower-stack/depin.md)
+{% endcontent-ref %}
+
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="risk-management.md" %}
 [risk-management.md](risk-management.md)
