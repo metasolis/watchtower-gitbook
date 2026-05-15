@@ -1,6 +1,6 @@
 ---
-cover: .gitbook/assets/6.png
-coverY: 25.673913043478258
+cover: .gitbook/assets/watchtower Long Main Dark.png
+coverY: 0
 ---
 
 # 🖖 Welcome
