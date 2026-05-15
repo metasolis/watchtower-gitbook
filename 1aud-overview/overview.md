@@ -2,7 +2,7 @@
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-IAUD ([Roman-numeral for the number One](https://en.wikipedia.org/wiki/Roman_numerals)) represents 1AU Dollar where 1AU stands for 1 [Astronomical Unit](https://en.wikipedia.org/wiki/Astronomical_unit) which is a unit of distance used in astrophysics and represents the distance of the Earth from its Star/Sun.&#x20;
+IAUD ([Roman-numeral for the number One](https://en.wikipedia.org/wiki/Roman_numerals)) represents 1AU Dollar where AU stands for [Astronomical Unit](https://en.wikipedia.org/wiki/Astronomical_unit) which is a unit of distance used in astrophysics. 1AU is the distance of the Earth from its Star/Sun.&#x20;
 
 We use a stablecoin-enabled credit approach where crypto-natives can lend their dollar denominated stablecoins to earn a real yield from businesses that can take out loans by tokenising their hardware collateral and underwriters can participate in algorithmic auctions.
 
