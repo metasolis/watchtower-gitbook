@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/watchtower Long Main Dark.png
+cover: .gitbook/assets/Watchtower1 (Youtube Banner).png
 coverY: 0
 ---
 
