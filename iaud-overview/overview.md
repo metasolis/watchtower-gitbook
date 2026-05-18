@@ -8,6 +8,8 @@ We use a stablecoin-enabled credit approach where crypto-natives can lend their 
 
 This particular product falls under Payload-based financing and Reputation-based financing mentioned in _The Vision section_ and is built on top of the **Watchtower Stack**. For more info, you can go to the Watchtower Stack [overview.md](../watchtower-stack/overview.md "mention").
 
+If you'd prefer, you can watch the [demo](https://youtu.be/4hTkJ30i9Cg) which showcases earn/lending; borrow; auctions; tokenisation and loan origination.
+
 {% content-ref url="borrow.md" %}
 [borrow.md](borrow.md)
 {% endcontent-ref %}

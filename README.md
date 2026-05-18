@@ -31,8 +31,8 @@ Watchtower's vision is to build the financial and economic foundations for a Sta
 
 ## 1AUD Stablecoin
 
-{% content-ref url="1aud-overview/overview.md" %}
-[overview.md](1aud-overview/overview.md)
+{% content-ref url="iaud-overview/overview.md" %}
+[overview.md](iaud-overview/overview.md)
 {% endcontent-ref %}
 
 ***

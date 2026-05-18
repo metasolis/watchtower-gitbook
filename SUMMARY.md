@@ -13,16 +13,16 @@
 * [🏛️ Governance](overview/governance.md)
 * [📜 Disclaimer & Links](overview/disclaimer-and-links.md)
 
-## 1AUD Overview
+## IAUD Overview
 
-* [🌇 How IAUD works](1aud-overview/overview.md)
-* [🤝 Lending](1aud-overview/lending.md)
-* [🤲 Tokenise & Borrow](1aud-overview/borrow.md)
-* [🪙 Tokenisation](1aud-overview/tokenisation.md)
-* [🤲 Copy of Borrow](1aud-overview/borrow-1.md)
-* [🧑‍⚖️ Underwrite](1aud-overview/underwrite.md)
-* [☣️ Risk Management](1aud-overview/risk-management.md)
-* [🛡️ Security: Audits & Addresses](1aud-overview/audits-and-addresses.md)
+* [🌇 How IAUD works](iaud-overview/overview.md)
+* [🤝 Lending](iaud-overview/lending.md)
+* [🤲 Tokenise & Borrow](iaud-overview/borrow.md)
+* [🪙 Tokenisation](iaud-overview/tokenisation.md)
+* [🤲 Copy of Borrow](iaud-overview/borrow-1.md)
+* [🧑‍⚖️ Underwrite](iaud-overview/underwrite.md)
+* [☣️ Risk Management](iaud-overview/risk-management.md)
+* [🛡️ Security: Audits & Addresses](iaud-overview/audits-and-addresses.md)
 
 ## Watchtower Stack
 
