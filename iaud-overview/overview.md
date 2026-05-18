@@ -12,6 +12,8 @@ This particular product falls under Payload-based financing and Reputation-based
 If you'd prefer, you can watch the [demo](https://youtu.be/4hTkJ30i9Cg) which showcases earn/lending; borrow; auctions; tokenisation and loan origination.
 {% endhint %}
 
+***
+
 {% content-ref url="borrow.md" %}
 [borrow.md](borrow.md)
 {% endcontent-ref %}
