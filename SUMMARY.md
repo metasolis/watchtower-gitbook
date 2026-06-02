@@ -28,7 +28,8 @@
 ## Watchtower Stack
 
 * [🌄 Architecture Overview](watchtower-stack/overview.md)
-* [💵 IAUD](watchtower-stack/1aud.md)
+* [💵 IAUD](watchtower-stack/1aud/README.md)
+  * [IAUD v2 Architecture](watchtower-stack/1aud/iaud-v2-architecture.md)
 * [📱 Apps](watchtower-stack/apps.md)
 * [🔮 Oracle](watchtower-stack/oracle.md)
 * [🛜 CAT](watchtower-stack/depin.md)

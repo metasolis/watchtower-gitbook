@@ -4,7 +4,7 @@ description: The utility powering the Watchtower stack
 
 # 💵 IAUD
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The current version is simpler than discussed here. It is a simple mint/redeem non-yielding stablecoin that must be staked to accrue any yield. The details mentioned below are its upgrade inspired by the awesome folks at Perena.
