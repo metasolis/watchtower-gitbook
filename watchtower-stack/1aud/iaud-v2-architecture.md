@@ -76,7 +76,7 @@ Shortfalls flow **up** the stack:
 
 1. **L3:** Bad debt reduces `total_supply_assets` for that market (pro-rata among USDC **suppliers** to that market—typically the Hardware Lending Vault adapter only).
 2. **L2:** Adapter `real_assets()` drops → that vault’s slice of bank NAV drops.
-3. **L1:** Unless a **first-loss vault** is added later, **all vaults and all $IAUD** share the impairment via lower `iaud_price`. Optional junior tranche is documented on the First Loss page.
+3. **L1:** Unless a **first-loss vault** is added later, **all vaults and all $IAUD** share the impairment via lower `iaud_price`. Junior tranche is documented on the First Loss page.
 
 ***
 
@@ -94,5 +94,5 @@ Shortfalls flow **up** the stack:
 ### Related pages
 
 * **Lending v2** — USDC deployment, borrowers, markets.
-* **First Loss v2** — optional junior capital (not in initial ship scope).
+* **First Loss v2** — junior capital.
 * **Auctions v2** — NFT liquidation backstop when instant seize is insufficient.
