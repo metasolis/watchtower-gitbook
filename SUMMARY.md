@@ -20,7 +20,8 @@
 * [🤲 Tokenise & Borrow](iaud-overview/borrow.md)
 * [🪙 Tokenisation](iaud-overview/tokenisation.md)
 * [🤲 Copy of Borrow](iaud-overview/borrow-1.md)
-* [🧑‍⚖️ Underwrite](iaud-overview/underwrite.md)
+* [🧑‍⚖️ Underwrite](iaud-overview/underwrite/README.md)
+  * [First Loss Capital v2 Architecture](iaud-overview/underwrite/first-loss-capital-v2-architecture.md)
 * [☣️ Risk Management](iaud-overview/risk-management.md)
 * [🛡️ Security: Audits & Addresses](iaud-overview/audits-and-addresses.md)
 

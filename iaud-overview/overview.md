@@ -26,8 +26,8 @@ If you'd prefer, you can watch the [demo](https://youtu.be/4hTkJ30i9Cg) which sh
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-{% content-ref url="underwrite.md" %}
-[underwrite.md](underwrite.md)
+{% content-ref url="underwrite/" %}
+[underwrite](underwrite/)
 {% endcontent-ref %}
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
