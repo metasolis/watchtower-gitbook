@@ -2,7 +2,7 @@
 hidden: true
 ---
 
-# IAUD v2 Architecture
+# IAUD v2
 
 This page explains how **1AU Dollar** (IAUD) works as a yield-bearing stablecoin in the modular stack (**Bank → Vaults → Markets)** and how yield reaches holders, and what each layer is responsible for.
 
@@ -76,18 +76,13 @@ Shortfalls flow **up** the stack:
 
 1. **L3:** Bad debt reduces `total_supply_assets` for that market (pro-rata among USDC **suppliers** to that market—typically the Hardware Lending Vault adapter only).
 2. **L2:** Adapter `real_assets()` drops → that vault’s slice of bank NAV drops.
-3. **L1:** Unless a **first-loss vault** is added later, **all vaults and all $IAUD** share the impairment via lower `iaud_price`. Junior tranche is documented on the First Loss page.
+3. **L1:** F**irst-loss vault** is added later such that **all vaults and all $IAUD** _do not_ share the impairment via lower `iaud_price`. Junior tranche is documented on the First Loss page.
 
 ***
 
 ### v1 vs v2 (stablecoin)
 
-| Topic       | v1                                   | v2                                            |
-| ----------- | ------------------------------------ | --------------------------------------------- |
-| Token       | $IAUD / `oneaud_mint` in single pool | $IAUD from **Bank**; NAV from **Σ vaults**    |
-| Yield       | Mostly hardware loan APR in one pool | Diversified vault types + isolated markets    |
-| Price model | Share minting vs `total_assets`      | **Price appreciation** vs aggregate vault NAV |
-| Pause       | One `paused` flag                    | Bank + per-vault breakers                     |
+<table><thead><tr><th width="128">Topic</th><th>v1</th><th>v2</th></tr></thead><tbody><tr><td>Token</td><td>$IAUD / <code>oneaud_mint</code> in single pool</td><td>$IAUD from <strong>Bank</strong>; NAV from <strong>Σ vaults</strong></td></tr><tr><td>Yield</td><td>Mostly hardware loan APR in one pool</td><td>Diversified vault types + isolated markets</td></tr><tr><td>Price model</td><td>Share minting vs <code>total_assets</code></td><td><strong>Price appreciation</strong> vs aggregate vault NAV</td></tr><tr><td>Pause</td><td>One <code>paused</code> flag</td><td>Bank + per-vault breakers</td></tr></tbody></table>
 
 ***
 
