@@ -20,8 +20,8 @@ If you'd prefer, you can watch the [demo](https://youtu.be/4hTkJ30i9Cg) which sh
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-{% content-ref url="lending.md" %}
-[lending.md](lending.md)
+{% content-ref url="lending/" %}
+[lending](lending/)
 {% endcontent-ref %}
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>

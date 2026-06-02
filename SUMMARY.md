@@ -16,7 +16,8 @@
 ## IAUD Overview
 
 * [🌇 How IAUD works](iaud-overview/overview.md)
-* [🤝 Lending](iaud-overview/lending.md)
+* [🤝 Lending](iaud-overview/lending/README.md)
+  * [Lending v2](iaud-overview/lending/lending-v2.md)
 * [🤲 Tokenise & Borrow](iaud-overview/borrow.md)
 * [🪙 Tokenisation](iaud-overview/tokenisation.md)
 * [🤲 Copy of Borrow](iaud-overview/borrow-1.md)
