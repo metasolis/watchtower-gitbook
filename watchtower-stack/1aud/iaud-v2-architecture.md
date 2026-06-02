@@ -45,21 +45,13 @@ Every mint and redeem runs a **seven-step check** (permission, pause, collateral
 
 ### Roles by layer (stablecoin lens)
 
-| Role                      | Layer        | What they do for 1AUD                                                                                                                                        |
-| ------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Holder**                | L1           | Mints 1AUD with supported assets; redeems against a chosen vault when liquidity allows.                                                                      |
-| **Bank Manager**          | L1           | Appoints Curator / Sentinel; bank-wide circuit breaker.                                                                                                      |
-| **Curator**               | L1–L2        | Adds vaults and adapters; sets caps and fees (timelocked increases).                                                                                         |
-| **Allocator**             | L2           | Moves capital between adapters within caps; sets where new deposits auto-route (`liquidity_adapter`).                                                        |
-| **Sentinel**              | L1–L2        | Emergency: deallocate, cut caps, revoke pending curator actions—cannot add new risk.                                                                         |
-| **Oracle signers**        | L2 / markets | Prices for NAV and collateral; consensus rules on sensitive vaults.                                                                                          |
-| **Borrower / liquidator** | L3           | Borrowers do not mint 1AUD; they draw **USDC from markets** backed by vault suppliers. Liquidators protect L3 solvency, which protects L2 NAV and thus 1AUD. |
+<table><thead><tr><th width="151">Role</th><th width="119">Layer</th><th>What they do for 1AUD</th></tr></thead><tbody><tr><td><strong>Holder</strong></td><td>L1</td><td>Mints $IAUD with supported assets; redeems against a chosen vault when liquidity allows.</td></tr><tr><td><strong>Bank Manager</strong></td><td>L1</td><td>Appoints Curator / Sentinel; bank-wide circuit breaker.</td></tr><tr><td><strong>Curator</strong></td><td>L1–L2</td><td>Adds vaults and adapters; sets caps and fees (time-locked increases).</td></tr><tr><td><strong>Allocator</strong></td><td>L2</td><td>Moves capital between adapters within caps; sets where new deposits auto-route (<code>liquidity_adapter</code>).</td></tr><tr><td><strong>Sentinel</strong></td><td>L1–L2</td><td>Emergency: deallocate, cut caps, revoke pending curator actions—cannot add new risk.</td></tr><tr><td><strong>Oracle signers</strong></td><td>L2 / markets</td><td>Prices for NAV and collateral; consensus rules on sensitive vaults.</td></tr><tr><td><strong>Borrower / liquidator</strong></td><td>L3</td><td>Borrowers do not mint $IAUD; they draw <strong>USDC from markets</strong> backed by vault suppliers. Liquidators protect L3 solvency, which protects L2 NAV and thus $IAUD.</td></tr></tbody></table>
 
 L3 participants affect the stablecoin **indirectly** by changing market health and vault `real_assets()`, including bad-debt socialization at the market (see Lending and First Loss pages).
 
 ***
 
-### Mint and redeem (implementation sketch)
+### Mint and redeem
 
 **Mint** (`mint_iaud_with_asset`):
 
@@ -70,11 +62,11 @@ L3 participants affect the stablecoin **indirectly** by changing market health a
 
 **Redeem** (`redeem_iaud`):
 
-1. User burns 1AUD; bank computes `assets_out = iaud_amount × iaud_price`.
+1. User burns $IAUD; bank computes `assets_out = iaud_amount × iaud_price`.
 2. Vault pays from **idle** balance first; shortfall triggers adapter **`deallocate`**.
 3. If still illiquid, user may use **`force_deallocate`** (penalty up to \~2% of shares) per Morpho-style exit guarantees.
 
-1AUD mint authority sits on the **BankState PDA**, not on individual vaults.
+$IAUD mint authority sits on the **BankState PDA**, not on individual vaults.
 
 ***
 
@@ -84,7 +76,7 @@ Shortfalls flow **up** the stack:
 
 1. **L3:** Bad debt reduces `total_supply_assets` for that market (pro-rata among USDC **suppliers** to that market—typically the Hardware Lending Vault adapter only).
 2. **L2:** Adapter `real_assets()` drops → that vault’s slice of bank NAV drops.
-3. **L1:** Unless a **first-loss vault** is added later, **all vaults and all 1AUD** share the impairment via lower `iaud_price`. Optional junior tranche is documented on the First Loss page.
+3. **L1:** Unless a **first-loss vault** is added later, **all vaults and all $IAUD** share the impairment via lower `iaud_price`. Optional junior tranche is documented on the First Loss page.
 
 ***
 
@@ -92,7 +84,7 @@ Shortfalls flow **up** the stack:
 
 | Topic       | v1                                   | v2                                            |
 | ----------- | ------------------------------------ | --------------------------------------------- |
-| Token       | 1AUD / `oneaud_mint` in single pool  | 1AUD from **Bank**; NAV from **Σ vaults**     |
+| Token       | $IAUD / `oneaud_mint` in single pool | $IAUD from **Bank**; NAV from **Σ vaults**    |
 | Yield       | Mostly hardware loan APR in one pool | Diversified vault types + isolated markets    |
 | Price model | Share minting vs `total_assets`      | **Price appreciation** vs aggregate vault NAV |
 | Pause       | One `paused` flag                    | Bank + per-vault breakers                     |
