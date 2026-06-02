@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # IAUD v2
 
 This page explains how **1AU Dollar** (IAUD) works as a yield-bearing stablecoin in the modular stack (**Bank → Vaults → Markets)** and how yield reaches holders, and what each layer is responsible for.
