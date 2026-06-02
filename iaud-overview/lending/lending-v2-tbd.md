@@ -8,7 +8,7 @@ hidden: true
 
 How **lending** works in IAUD v2: who supplies USDC, how hardware borrowers draw and repay, how risk is isolated per market, and how this differs from v1’s single `nft_lending_pool`.
 
-See also [IAUD v2](../../watchtower-stack/1aud/iaud-v2.md) and v1 pages `Lending.md` / `Tokenise-and-Borrow.md`.
+See also [IAUD v2](../../watchtower-stack/1aud/iaud-v2.md) and v1 pages [Lending](./)/[Tokenise & Borrow](../borrow.md).
 
 ***
 
